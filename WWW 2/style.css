@@ -1,0 +1,133 @@
+header {
+	background-color: grey;
+	color: rgb(207, 207, 207);
+	text-align: center;
+	text-decoration: none;
+	display:flex;
+	justify-content: space-between;
+
+}
+header a {
+	background-color: none;
+	color: black;
+	text-decoration: none;
+	text-align: center;
+	margin: 10px 10px;
+    font-size: 1.4em;
+
+}
+
+#titre {
+	display:flex;
+	flex-direction: column;
+}
+
+p {
+	color: black;
+	font-family: Helvetica, Arial, sans-serif;
+	text-align: center;
+	font-size: 1.3em;
+
+}
+
+p_1 {
+	color: black;
+	font-family: Helvetica, Arial, sans-serif;
+	text-align: center;
+	font-size: 1.1em;
+	
+  }
+
+#container_login {
+	width:400px;
+    margin:0 auto;
+    margin-top:10%;
+	padding: 30px;
+    border: 1px solid #f1f1f1;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#container_login h1{
+    font-size: 1.3em;
+	text-align: center;
+    
+}
+
+/* Full-width inputs */
+#container_login input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+#container_login input[type=submit] {
+    background-color: rgb(143, 142, 142);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+#container_login input[type=submit]:hover {
+    background-color: white;
+    color: rgb(143, 142, 142);
+    border: 1px solid rgb(143, 142, 142);
+}
+
+nav {
+	background-color: rgb(207, 207, 207);
+	min-width: 235px;
+	min-height: 700px;
+}
+nav h1 {
+	font-size: 1.3em;
+    color: #181818;
+	text-align: left;
+	text-decoration: none;
+	margin: 10px 10px;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+	flex-direction: column;
+}
+
+nav li {
+    margin-right: 15px;
+}
+
+nav a {
+    font-size: 1.2em;
+    color: #212020;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+#page_generale {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+#contenu_de_la_page {
+	display: flex;
+	flex-direction: line;
+}
+
+section {
+	margin: 10px 30px;
+}
+
+header form {
+	background-color: none;
+	color: black;
+	text-decoration: none;
+	text-align: center;
+	margin: 10px 10px;
+    font-size: 1.4em;
+}
